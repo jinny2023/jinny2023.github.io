@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => (
   <Layout.Footer className={s.footer}>
     <div className={s.footerText}>
       Made with &#10084; and &#129474; by{' '}
-      <a href="https://github.com/teclu">Teclu</a>
+      <a href="https://github.com/teclu">Teclu. test test test</a>
     </div>
     <ThemeSwitch className={s.themeSwitch} />
   </Layout.Footer>
