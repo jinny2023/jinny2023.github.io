@@ -1,6 +1,6 @@
 yarn build
 cd dist
-echo 'https://ayo37.github.io/' > CNAME
+echo 'ayo37.github.io' > CNAME
 touch .nojekyll
 git init
 git add -A
