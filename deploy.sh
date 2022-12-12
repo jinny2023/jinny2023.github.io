@@ -1,9 +1,9 @@
 yarn build
 cd dist
-echo 'ayo37.github.io' > CNAME
+echo 'jinny2023.github.io' > CNAME
 touch .nojekyll
 git init
 git add -A
 git commit -m 'chore: deploy'
-git push -f git@github.com:ayo37/ayo37.github.io.git master:gh-pages
+git push -f git@github.com:jinny2023/jinny2023.github.io.git master:gh-pages
 cd ..
