@@ -20,7 +20,7 @@
       // When the single page app is loaded further down in this file,
       // the correct url will be waiting in the browser's history for
       // the single page app to route accordingly.
-	  function testMap(s) = {
+	  window["testMap"] = function(s) = {
 				debugger;
               return s.replace(/~and~/g, '&');
 	  }
@@ -30,7 +30,7 @@
           var decoded = l.search
             .slice(1)
             .split('&')
-            .map(testMap)
+            .map(window["testMap"])
             .join('?');
           window.history.replaceState(
             null,
